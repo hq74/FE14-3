@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+}
+.container .item{
+    min-height: 100px;
+    min-width: calc(20% - 15px);
+    border: 1px solid gray;
+    font-size: 3rem;
+    background-color: rgb(196, 132, 48);
+    color: brown;
+    text-align: center;
+    flex-grow: 1;
+}
+.container .item:nth-child(2n+1){
+    background-color: blue;
+}
+.container .item:last-child{
+    background-color: aqua;
+    flex-grow: 2;
+}
+.container .item:first-child{
+    background-color: rgb(255, 255, 255);
+}
