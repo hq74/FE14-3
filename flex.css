@@ -2,11 +2,28 @@
     padding: 0;
     margin: 0;
 }
+.list-color{
+    display: flex;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+    margin: 10px;
+
+}
+.list-color{
+    border: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+
+    
+}
 .container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 10px 30px;
+    gap: 20px 20px;
 }
 .container .item{
     min-height: 100px;
